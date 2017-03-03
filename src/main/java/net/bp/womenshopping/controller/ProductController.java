@@ -25,9 +25,9 @@ public class ProductController {
 		return productDAO.list();
 	}
 
-	@RequestMapping(value = "/showproduct/{id}")
+	@RequestMapping(value = "/showProduct/{id}")
 	public ModelAndView getProduct(@PathVariable("id") int id) {
-		ModelAndView mv = new ModelAndView("ProductDetails");
+		ModelAndView mv = new ModelAndView("showProduct");
 		mv.addObject("prd", productDAO.getProduct(id));
 		return mv;
 	}

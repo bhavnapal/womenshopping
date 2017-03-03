@@ -9,18 +9,18 @@
 					class="icon-bar"></span> <span class="icon-bar"></span> <span
 					class="icon-bar"></span>
 			</button>
-			<a class="navbar-brand" href="${contextRoot}/index">WomenShopping</a>
+			<a class="navbar-brand" href="/womenshopping/index">WomenShopping</a>
 		</div>
 		<!-- Collect the nav links, forms, and other content for toggling -->
 		<div class="collapse navbar-collapse"
 			id="bs-example-navbar-collapse-1">
 			<ul class="nav navbar-nav">
 			
-				<li id="listProducts"><a href="${contextRoot}/productlist">New Products</a></li>
-				<li id="about"><a href="${contextRoot}/about">About Us</a></li>
+				<li id="listProducts"><a href="/womenshopping/productlist">New Products</a></li>
+				<li id="about"><a href="/womenshopping/about">About Us</a></li>
 
-				<li id="signin"><a href="${contextRoot}/login">Sign in</a></li>
-				<li id="signup"><a href="${contextRoot}/register">Sign Up</a></li>
+				<li id="signin"><a href="/womenshopping/login">Sign in</a></li>
+				<li id="signup"><a href="/womenshopping/register">Sign Up</a></li>
 				<li><a href="#">Search</a></li>
 			</ul>
 			<form class="navbar-form pull-left">
@@ -31,8 +31,7 @@
 			</form>
 
 			<ul class="nav navbar-nav pull-right">
-				<li><a href="#"><span class="glyphicon glyphicon-user"></span>My
-						Account</a></li>
+				<li><a href="#"><span class="glyphicon glyphicon-user"></span>My Account</a></li>
 			</ul>
 		</div>
 		<!-- /.navbar-collapse -->

@@ -13,31 +13,27 @@ public class Product {
 	/*private variables*/
 	
 	
-	private int Id;
-	private String Pname;
-	private String Description;
+	private int id;
+	private String name;
+	private String description;
 	private String imageUrl;
-
-	
-	/*getter and setters
-*/	
 	public int getId() {
-		return Id;
+		return id;
 	}
 	public void setId(int id) {
-		Id = id;
+		this.id = id;
 	}
-	public String getPname() {
-		return Pname;
+	public String getName() {
+		return name;
 	}
-	public void setPname(String pname) {
-		Pname = pname;
+	public void setName(String name) {
+		this.name = name;
 	}
 	public String getDescription() {
-		return Description;
+		return description;
 	}
 	public void setDescription(String description) {
-		Description = description;
+		this.description = description;
 	}
 	public String getImageUrl() {
 		return imageUrl;
@@ -45,7 +41,6 @@ public class Product {
 	public void setImageUrl(String imageUrl) {
 		this.imageUrl = imageUrl;
 	}
-	
-	
+
 	
 }

@@ -9,17 +9,22 @@
 <link href="${css}/jquery.dataTables.css" rel="stylesheet">
 </head>
 <body>
-	<table id="mytable" class="table table-bordered">
-		<thead>
+	<%@include file="shared/navbar.jsp"%>
+	<div class="container">
+		<div class="row">
+			<table id="mytable" class="table table-bordered">
+				<thead>
 
-			<th>id</th>
-			<th>description</th>
-			<th>PNAME</th>
-			<th>Image</th>
-			<th>Link</th>
-		</thead>
+					<th>Id</th>
+					<th>Name</th>
+					<th>Description</th>
+					<th>Image</th>
+					<th>Link</th>
+				</thead>
 
-	</table>
-
+			</table>
+		</div>
+	</div>
+	<%@include file="shared/footer.jsp"%>
 </body>
 </html>

@@ -1,12 +1,7 @@
-
-<p class="lead">Categories</p>
-
+<p class="lead">Shop By Categories </p>
 <div class="list-group">
 
-	<c:forEach items="${categories}" var="category">
-
-		<a href="${contextRoot}/show/category/${category.id}/products" class="list-group-item">${category.name}</a>
-
-	</c:forEach>
-
+					<a href="#" class="list-group-item">Indian Wear</a>
+                    <a href="#" class="list-group-item">Western Wear</a>
+                 
 </div>
